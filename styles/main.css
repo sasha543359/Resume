@@ -20,14 +20,25 @@
     --mainBgColor:var(--mainBgColor-dark);
 
 }
+#user-name {
+    font-size: 48px;
+    line-height: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
-
+#bio, #email {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 *{
     font-family: 'Readex Pro';
     line-height: 1.5em;
     box-sizing: border-box;
     color: var(--mainTextColor);
-    
 }
 
 body{
